@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 0.5em;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgba(104, 112, 132, 0.9);
+  }
+  
+  main {
+    padding: 8rem 2rem;
+    flex-grow: 1;
+  }
+  
+  .main-wrapper {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-nav ul {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  
+  input, 
+  textarea {
+    font-size: inherit;
+    font-family: inherit;
+    padding: 0.5rem;
+    background-color: transparent;
+  }
+
+
+
+
+  input,
+  button,
+  textarea{
+    border:none;
+    padding:15px 20px;
+    border-radius:20px;
+    background:rgba(229, 227, 227, 0.477);
+  }
+
+
+  label{
+    color:#aaa;
+    font-size:2rem;
+  }
+
+  button{
+    background:#1161ee;
+    cursor: pointer;
+    padding: 1.3rem 3rem ;
+    font-size: inherit;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 3rem auto 0;
+  }
+  
+  .form-control {
+    margin-bottom: 4rem;
+  }
+  
+  .form-control label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-control input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+  }
+  
+  .form-control input[type="number"] {
+    width: 10rem;
+  }
+  
+  .form-control input:focus,
+  .form-control textarea:focus {
+    transition-duration: 1s;
+    border-bottom: 0.2rem solid rgb(7, 7, 57);
+    outline: none;
+    background:rgba(229, 227, 227, 0.477)
+  }
+  
+  .form-control textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+  }
+
+  

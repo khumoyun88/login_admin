@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin</title>
+  <link rel="stylesheet" href="./styles/css/admin.css">
+  <!-- <link rel="stylesheet" href="./stylesheets/css/productList.css"> -->
+  <script type="module" src="/admin.js"></script>
+</head>
+
+<body>
+  <div class="main-wrapper">
+    <!-- <header>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="/index.html">home</a></li>
+          <li><a href="/admin.html">admin</a></li>
+          <li><a href="/login.html">login</a></li>
+        </ul>
+      </nav>
+
+      <button id="logout-btn">logout</button>
+    </header> -->
+
+    <main>
+      <div>
+        <h1>Admin page</h1>
+        <button  id="btn" style="background-color: rgb(183, 63, 63);">log out</button>
+      </div>
+
+      <div id="app">
+        <form>
+          <div class="form-control">
+            <label for="title">Product title</label>
+            <input type="text" name="title" id="title" required>
+          </div>
+
+          <div class="form-control">
+            <label for="price">Product price</label>
+            <input type="number" name="price" id="price" required>
+          </div>
+
+          <div class="form-control">
+            <label for="description">Product description</label>
+            <textarea rows="3" name="description" id="description" required></textarea>
+          </div>
+
+          <button type="submit">Add</button>
+        </form>
+      </div>
+
+      <hr style="margin: 2rem 0;">
+      <h2>New products</h2>
+      <div id="products"></div>
+    </main>
+
+  </div>
+</body>
+
+</html>
