@@ -116,6 +116,8 @@ form {
   background-image: url(../../img/login_bc.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 45.5rem;
+  height: 40rem;
 }
 .main-wrapper main {
   background-color: rgba(40, 57, 101, 0.9);

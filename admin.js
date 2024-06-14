@@ -71,8 +71,13 @@ function showProducts() {
       const $description = document.createElement("p")
       $description.textContent = product.description
       $listProduct.append($description)
+
+      // const $deleteBtn = document.createElement("button")
+      // $deleteBtn.textContent = "Delete"
+      // $listProduct.append($deleteBtn)
   
     });
+
 }
 
 showProducts()
